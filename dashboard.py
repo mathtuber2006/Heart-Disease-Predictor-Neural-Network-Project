@@ -17,7 +17,7 @@ st.info(
 
 @st.cache_resource
 def load_model():
-    model = np.load("G:/neural_network_from_scratch/heart diseases/model_v3_updated.npz",allow_pickle=True)
+    model = np.load("heart diseases/model_v3_updated.npz",allow_pickle=True)
 
     return {
         "W1": model["W1"],
